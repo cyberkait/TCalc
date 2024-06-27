@@ -31,7 +31,7 @@ while True:
         case "subtract":
             nums = cf.two_nums()
             result = cf.subtract(nums[0], nums[1])
-            print(f"{nums[0]}+{nums[1]} = {result}")
+            print(f"{nums[0]}-{nums[1]} = {result}")
         case "subtract from memory":
             num = cf.get_num("Enter number to subtract from memory: ")
             old_memory = memory
